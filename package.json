@@ -1,0 +1,34 @@
+{
+  "name": "lodown-jstrzesz",
+  "version": "1.0.9",
+  "description": "A functional library of code",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstrzesz/lodown.git"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "javascript"
+  ],
+  "author": "jstrzesz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jstrzesz/lodown/issues"
+  },
+  "homepage": "https://github.com/jstrzesz/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4"
+  }
+}
